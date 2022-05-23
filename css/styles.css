@@ -112,3 +112,35 @@ body
  
     pointer-events: none;
 }
+
+/* FORM STYLES */
+.plant-form-header
+{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+
+    text-transform: uppercase;
+    color: var(--color3);
+
+    background-color: var(--color1);
+}
+
+
+.plant-form
+{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    
+    background-color: var(--color2);
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
